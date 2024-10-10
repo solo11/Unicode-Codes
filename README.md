@@ -1,23 +1,24 @@
+
+
 ---
 datapackage:
-  title: Unicode codes
-  description: The Unicode Consortium is the standards body for the internationalization of software and services. Deployed on more than 20 billion devices around the world, Unicode also provides the solution for internationalization and the architecture to support localization.
+  title: Welcome to your template dataset page!
+  description: This is a template for publishing your dataset with Datahub Cloud.
   created: 2024-01-01
   updated: 2024-01-31
   licenses:
   - path: http://opendatacommons.org/licenses/pddl/
     title: Open Data Commons Public Domain Dedication and License v1.0
   sources:
-  - path: [Unicode](https://home.unicode.org/)
+  - path: http://link.to/data/source
     title: Link to data source
   resources:
-  - name: unicode_data
-    title: unicode_data
-    description: unicode_data
+  - name: c02-per-decade
+    title: C02 PPM per decade
+    description: C02 PPM per decade
     lastModified: 2024-01-15
     path: data.csv
 ---
-
 
 
 ## Overview
