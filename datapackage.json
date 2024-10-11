@@ -17,7 +17,7 @@
         "fields": [
           {
             "name": "0000",
-            "type": "number",
+            "type": "string",
             "format": "default"
           },
           {
@@ -111,7 +111,7 @@
         "fields": [
           {
             "name": "Code value",
-            "type": "number",
+            "type": "string",
             "format": "default"
           },
           {
