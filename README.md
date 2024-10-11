@@ -209,5 +209,7 @@ Values in the Unicode Character Database are subject to correction as errors are
     *   upper(canonicalDecomposition(a)) = canonicalDecomposition(upper(a))
     *   lower(canonicalDecomposition(a)) = canonicalDecomposition(lower(a))
     *   title(canonicalDecomposition(a)) = canonicalDecomposition(title(a))
+
+
 Source: https://unicode.org/
 
