@@ -397,7 +397,7 @@ The compatibility formatting tags used are:</p>
 <p><b>Reminder: </b>There is a difference between decomposition and decomposition mapping. 
 The decomposition mappings are defined in the UnicodeData, while the decomposition (also 
 termed &quot;full decomposition&quot;) is defined in Chapter 3 to use those mappings 
-recursively. <\p>
+recursively. </p>
 
 <ul>
   <li>The canonical decomposition is formed by recursively applying the canonical mappings, 
