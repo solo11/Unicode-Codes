@@ -25,7 +25,7 @@ The following table describes the format and meaning of each field in a data ent
 | --- | --- | --- | --- |
 | 0   | Code value | normative | Code value in 4-digit hexadecimal format. |
 | 1   | Character name | normative | These names match exactly the names published in Chapter 7 of the Unicode Standard, Version 2.0, except for the two additional characters. |
-| 2   | [General category](ReadMe-3.0.0d3.html#General Category) | normative / informative  <br>(see below) | This is a useful breakdown into various "character types" which can be used as a default categorization in implementations. See below for a brief explanation. |
+| 2   | [General category](ReadMe-3.0.0d3.html#General Category) | normative / informative (see below) | This is a useful breakdown into various "character types" which can be used as a default categorization in implementations. See below for a brief explanation. |
 | 3   | [Canonical combining classes](ReadMe-3.0.0d3.html#Canonical Combining Classes) | normative | The classes used for the Canonical Ordering Algorithm in the Unicode Standard. These classes are also printed in Chapter 4 of the Unicode Standard. |
 | 4   | [Bidirectional category](ReadMe-3.0.0d3.html#Bidirectional Category) | normative | See the list below for an explanation of the abbreviations used in this field. These are the categories required by the Bidirectional Behavior Algorithm in the Unicode Standard. These categories are summarized in Chapter 3 of the Unicode Standard. |
 | 5   | [Character decomposition mapping](ReadMe-3.0.0d3.html#Character Decomposition) | normative | In the Unicode Standard, not all of the mappings are full (maximal) decompositions. Recursive application of look-up for decompositions will, in all cases, lead to a maximal decomposition. The decomposition mappings match exactly the decomposition mappings published with the character names in the Unicode Standard. |
@@ -97,22 +97,22 @@ In some instances a canonical mapping or a compatibility mapping may consist of 
 
 | Tag | Description |
 | --- | --- |
-| <font> | A font variant (e.g. a blackletter form). |
-| <noBreak> | A no-break version of a space or hyphen. |
-| <initial> | An initial presentation form (Arabic). |
-| <medial> | A medial presentation form (Arabic). |
-| <final> | A final presentation form (Arabic). |
-| <isolated> | An isolated presentation form (Arabic). |
-| <circle> | An encircled form. |
-| <super> | A superscript form. |
-| <sub> | A subscript form. |
-| <vertical> | A vertical layout presentation form. |
-| <wide> | A wide (or zenkaku) compatibility character. |
-| <narrow> | A narrow (or hankaku) compatibility character. |
-| <small> | A small variant form (CNS compatibility). |
-| <square> | A CJK squared font variant. |
-| <fraction> | A vulgar fraction form. |
-| <compat> | Otherwise unspecified compatibility character. |
+| \<font\> | A font variant (e.g. a blackletter form). |
+| \<noBreak\> | A no-break version of a space or hyphen. |
+| \<initial\> | An initial presentation form (Arabic). |
+| \<medial\> | A medial presentation form (Arabic). |
+| \<final\> | A final presentation form (Arabic). |
+| \<isolated\> | An isolated presentation form (Arabic). |
+| \<circle\> | An encircled form. |
+| \<super\> | A superscript form. |
+| \<sub\> | A subscript form. |
+| \<vertical\> | A vertical layout presentation form. |
+| \<wide\> | A wide (or zenkaku) compatibility character. |
+| \<narrow\> | A narrow (or hankaku) compatibility character. |
+| \<small\> | A small variant form (CNS compatibility). |
+| \<square\> | A CJK squared font variant. |
+| \<fraction\> | A vulgar fraction form. |
+| \<compat\> | Otherwise unspecified compatibility character. |
 
 **Reminder:** There is a difference between decomposition and decomposition mapping. The decomposition mappings are defined in the UnicodeData, while the decomposition (also termed "full decomposition") is defined in Chapter 3 to use those mappings recursively.
 
